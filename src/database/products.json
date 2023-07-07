@@ -1,0 +1,13 @@
+[
+    {"id":1,"title":"Galleta Casino","description":"galletas dulces","price":50,"thumbnail":"sin archivo","code":"gl-111","stock":20},
+    {"id":2,"title":"Fideo Di Maria","description":"fideos de Angel","price":200,"thumbnail":"sin archivo","code":"fd-323","stock":50},
+    {"id":3,"title":"Gaseosa Coca","description":"gaseosa","price":150,"thumbnail":"sin archivo","code":"go-412","stock":20}, 
+    {"id":4,"title":"Galleta KR","description":"galletas dulces","price":50,"thumbnail":"sin archivo","code":"gl-112","stock":20},
+    {"id":5,"title":"Fideo Molitalia","description":"fideos de Angel","price":200,"thumbnail":"sin archivo","code":"fd-324","stock":50},
+    {"id":6,"title":"Gaseosa Crush","description":"gaseosa","price":150,"thumbnail":"sin archivo","code":"go-413","stock":20}, 
+    {"id":7,"title":"Galleta Oreo","description":"galletas dulces","price":50,"thumbnail":"sin archivo","code":"gl-115","stock":20},
+    {"id":8,"title":"Fideo Nicolini","description":"fideos de Angel","price":200,"thumbnail":"sin archivo","code":"fd-326","stock":50},
+    {"id":9,"title":"Gaseosa Fanta","description":"gaseosa","price":150,"thumbnail":"sin archivo","code":"go-418","stock":20},
+    {"id":10,"title":"Gaseosa Sprite","description":"gaseosa","price":150,"thumbnail":"sin archivo","code":"go-419","stock":20}
+    
+]

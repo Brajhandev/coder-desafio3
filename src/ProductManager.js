@@ -1,9 +1,9 @@
 import { Product } from "./Product.js";
 import fs from "fs/promises";
-class ProductManager {
+export class ProductManager {
   constructor() {
     this.products = [];
-    this.path = "./products.json";
+    this.path = "./src/database/products.json";
   }
 
   async readFile() {
@@ -37,7 +37,8 @@ class ProductManager {
   async getProductById(id) {
     const json = await this.readFile();
     this.products = JSON.parse(json);
-    const product = this.products.find((product) => product.id === id);
+    
+    const product = this.products.find((product) => product.id === Number(id));
     if (!product) {
       return `el producto de id ${id} no se encuentra`;
     }
@@ -79,20 +80,3 @@ class ProductManager {
     return 'Producto eliminado exitosamente'
   }
 }
-
-const product1 = new ProductManager();
-
-//01. agregando producto
-// product1.addProduct("Gaseosa Pepsi","Gaseosa pepside 500ml",150,"url","pep-005", 25)
-
-//02. ver todos los productos agregados
-//  console.log(await product1.getProducts());
-
-// 03. Consultar producto por ID
-// console.log( await product1.getProductById(4));
-
-// 04. Actualizar producto
-// product1.updateProduct(1,"coca", "coca de 500ml", 300, "url", "coc-01", 10 )
-
-//05. eliminar producto
-// console.log( await product1.deleteProduct(1))
